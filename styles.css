@@ -9,17 +9,36 @@ body {
     background-color: #f8f6fb;
 }
 
+a {
+    color: #54239c;
+}
+
+a:hover{
+    color: #53239cbb;
+    cursor: pointer;
+}
+
 .sticky_navigation{
     background-color: #d6c1f0;
+    vertical-align: center;
 }
 
 .sticky_navigation_container{
     display:flex;
     justify-content: space-between; 
-    padding: 14px 0;
+    padding: 11px 0;
     max-width: 1200px;
     margin: 0 auto;
     flex-wrap: wrap
+}
+
+.timetable_wrapper{
+    color: #2f1458;
+}
+
+.sticky_mail_icon{
+    margin-right: 6px;
+    vertical-align: middle;
 }
 
 .navigation{
