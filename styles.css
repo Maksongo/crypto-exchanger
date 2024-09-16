@@ -165,4 +165,15 @@ input:focus {
 .adv_card_img, .adv_card_txt{
     display: flex;
     justify-content: center;
+
+}
+.adv_card_txt{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 60px;
+    text-align: center
+}
+.adv_card_full_content{
+    padding: 20px 0 70px 0;
 }
