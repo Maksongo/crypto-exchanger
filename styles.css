@@ -225,6 +225,7 @@ input:focus {
 .partners_content_box{
     display: flex;
     grid-gap:10px;
+    margin-bottom: 50px;
 }
 
 .partners_card{
@@ -241,4 +242,18 @@ input:focus {
 .partners_card_img{
     max-height: 7.2rem;
     max-width: 18rem;
+}
+
+.footer{
+    background-color:#54239c
+}
+
+.footer_content_box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_content_box3{
+    display: flex;
+    align-items: center;
 }
