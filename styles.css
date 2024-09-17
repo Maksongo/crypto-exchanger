@@ -196,7 +196,7 @@ input:focus {
     justify-content: center;
 }
 
-.statistics_content h2{
+.statistics_content h2, .partners_content h2{
     color: #2f1458;
 }
 
@@ -220,4 +220,25 @@ input:focus {
 .statistics_icon{
     padding: 12px 10px 0 0;
     color: #54239c;
+}
+
+.partners_content_box{
+    display: flex;
+    grid-gap:10px;
+}
+
+.partners_card{
+    border: 1px solid #ccc;
+    border-radius: 2.8rem;
+    padding: 40px 40px;    
+    width: 100%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; 
+}
+
+.partners_card_img{
+    max-height: 7.2rem;
+    max-width: 18rem;
 }
