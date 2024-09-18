@@ -147,7 +147,7 @@ input:focus {
 }
 
 .advantages_content{
-    margin: 40px 0 30px 0;
+    margin: 30px 0 30px 0;
 }
 
 .advantages_grid {
@@ -202,7 +202,7 @@ input:focus {
 
 .statistics_content_full{
     display: flex;
-    margin: 30px 0 100px 0;
+    margin: 30px 0 30px 0;
     grid-gap:10px;
 }
 
@@ -223,9 +223,9 @@ input:focus {
 }
 
 .partners_content_box{
+    margin: 30px 0 30px 0;
     display: flex;
     grid-gap:10px;
-    margin-bottom: 50px;
 }
 
 .partners_card{
