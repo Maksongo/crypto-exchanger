@@ -310,6 +310,7 @@ align-items: center;
     left: 0;
     width: 100%;
     height: 100%;
+    display: none;
 }
 
 .SignIn_wrapper_form{
@@ -340,3 +341,4 @@ text-align: center;
 .SignIn_wrapper_form_content_help_content p{
     cursor: pointer;
 }
+
