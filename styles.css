@@ -303,7 +303,7 @@ align-items: center;
 
 
 
-.SignIn_wrapper{
+.SignIn_wrapper, .SignUp_wrapper{
     background: rgba(0,0,0,0.5);
     position: fixed;
     top: 0;
@@ -314,13 +314,25 @@ align-items: center;
     z-index: 9999;
 }
 
-.SignIn_wrapper_form{
+.SignIn_wrapper_form, .SignUp_wrapper_form{
     border: 1px solid #54238e;
     border-radius: 1.6rem;
     max-width: 400px;
     margin: 15% auto;
-    background-color: #f8f6fb;
+    background-color: #f8f5fb;
     position: relative;
+}
+
+.SignIn_wrapper label, .SignIn_wrapper h2{
+    color: #3d1966;
+}
+
+.SignIn_wrapper p{
+    color: #54238e;
+}
+
+.SignIn_wrapper span{
+    color: #e6dcef;
 }
 
 .SignIn_wrapper_form_close{
@@ -337,6 +349,11 @@ align-items: center;
 
 .SignIn_wrapper_form_content_title{
 text-align: center;
+margin: 0 0 20px 0;
+}
+
+.SignIn_wrapper_form_content_login, .SignIn_wrapper_form_content_button, .SignIn_wrapper_form_content_button, .SignIn_wrapper_form_content_help{
+    padding: 0 0 20px 0;
 }
 .SignIn_wrapper_form_content_help_content{
     display: flex;

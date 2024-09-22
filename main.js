@@ -17,3 +17,11 @@ SigninButton.addEventListener('click', () => {
 SignInCloseButton.addEventListener('click', () => {
     SignInWrapper.style.display = "none";
 });
+
+const SignupButton = document.querySelector(".nav_signup");
+const SignupCloseButton = document.querySelector(".SignUp_wrapper_form_close")
+const SignupWrapper = document.querySelector(".SignUp_wrapper");
+
+SignupButton.addEventListener('click', () => {
+    SignupWrapper.style.display = "block";
+});
