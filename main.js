@@ -18,10 +18,14 @@ SignInCloseButton.addEventListener('click', () => {
     SignInWrapper.style.display = "none";
 });
 
-const SignupButton = document.querySelector(".nav_signup");
-const SignupCloseButton = document.querySelector(".SignUp_wrapper_form_close")
-const SignupWrapper = document.querySelector(".SignUp_wrapper");
+const SignUpButton = document.querySelector(".nav_signup");
+const SignUpCloseButton = document.querySelector(".SignUp_wrapper_form_close")
+const SignUpWrapper = document.querySelector(".SignUp_wrapper");
 
-SignupButton.addEventListener('click', () => {
-    SignupWrapper.style.display = "block";
+SignUpButton.addEventListener('click', () => {
+    SignUpWrapper.style.display = "block";
+});
+
+SignUpCloseButton.addEventListener('click', () => {
+    SignUpWrapper.style.display = "none";
 });

@@ -347,7 +347,7 @@ align-items: center;
     padding: 40px 25px;
 }
 
-.SignIn_wrapper_form_content_title{
+.SignIn_wrapper_form_content_title, .SignUp_wrapper_form_content_title{
 text-align: center;
 margin: 0 0 20px 0;
 }
