@@ -109,7 +109,7 @@ font-size: 30px;
     justify-content: center;
 }
 
-input{
+.input-fullwidth{
     width: 100%;
     padding: 12px 16px;
     border: 1px solid #ccc;
@@ -133,7 +133,7 @@ input:focus {
     box-shadow: 0 0 5px rgba(132, 0, 194, 0.5);
   }
 
-.exchanger_button, .SignIn_wrapper_form_content_button button{
+.exchanger_button, .SignIn_wrapper_form_content_button button, .SignUp_wrapper_form_content_button button{
     width: 100%;
     padding: 12px 16px;
     border: 1px solid #ccc;
@@ -323,11 +323,11 @@ align-items: center;
     position: relative;
 }
 
-.SignIn_wrapper label, .SignIn_wrapper h2{
+.SignIn_wrapper label, .SignIn_wrapper h2, .SignUp_wrapper label, .SignUp_wrapper h2{
     color: #3d1966;
 }
 
-.SignIn_wrapper p{
+.SignIn_wrapper p, .SignUp_wrapper p{
     color: #54238e;
 }
 
@@ -335,7 +335,7 @@ align-items: center;
     color: #e6dcef;
 }
 
-.SignIn_wrapper_form_close{
+.SignIn_wrapper_form_close, .SignUp_wrapper_form_close{
     position: absolute;
     top: 16px;
     right: 20px;
@@ -364,3 +364,9 @@ margin: 0 0 20px 0;
     cursor: pointer;
 }
 
+/* .SignUp_wrapper_form_content_checkbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+} */

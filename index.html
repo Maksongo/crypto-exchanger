@@ -51,11 +51,11 @@
                 </div>
                 <div class="SignIn_wrapper_form_content_login">
                     <label for="">Login or email *:</label>
-                    <input type="text" id="SignIn_Login">
+                    <input class="input-fullwidth" type="text" id="SignIn_Login">
                 </div>
                 <div class="SignIn_wrapper_form_content_login">
                     <label for="">Password *:</label>
-                    <input type="text" id="SignIn_Login">
+                    <input class="input-fullwidth" type="text" id="SignIn_Login">
                 </div>
                 <div class="SignIn_wrapper_form_content_button">
                     <button>Sign in</button>
@@ -80,34 +80,42 @@
                     <h2>Authorization</h2>
                 </div>
                 <div class="SignUp_wrapper_form_content_login">
-                    <label for="">Login or email *:</label>
-                    <input type="text" id="SignUp_Login">
+                    <label for="">Login *:</label>
+                    <input class="input-fullwidth" type="text" id="SignUp_Login">
+                </div>
+                <div class="SignUp_wrapper_form_content_login">
+                    <label for="">Email *:</label>
+                    <input class="input-fullwidth" type="text" id="SignUp_Login">
                 </div>
                 <div class="SignUp_wrapper_form_content_login">
                     <label for="">Password *:</label>
-                    <input type="text" id="SignUp_Login">
+                    <input class="input-fullwidth" type="text" id="SignUp_Login">
+                </div>
+                <div class="SignUp_wrapper_form_content_login">
+                    <label for="">Password again *:</label>
+                    <input class="input-fullwidth" type="text" id="SignUp_Login">
                 </div>
                 <div class="SignUp_wrapper_form_content_button">
                     <button>Sign in</button>
                 </div>
-                <div class="SignUp_wrapper_form_content_help">
-                    <div class="SignUp_wrapper_form_content_help_content">
-                        <p>Sign up</p>
-                        <span>&nbsp|&nbsp</span>
-                        <p>Forgot password?</p>
-                    </div>
+                <div class="SignUp_wrapper_form_content_checkbox">
+                        <input type="checkbox" id="scales" name="scales" checked />
+                        <label for="scales">I read and agree with the terms and conditions</label>
+                </div>
                 </div>
             </div>
-
+            
         </div>
     </div>
 
+
+    
     <div class="container">
         <div class="exchanger_form">
             <div class="exchanger_form_main">
                 <div>
                     <h2>You send</h2>
-                    <input type="text" list="cities" value="Bitcoin BTC">
+                    <input class="input-fullwidth" type="text" list="cities" value="Bitcoin BTC">
                     <datalist id="cities">
                         <option value="Bitcoin BTC" >
                         <option value="Ethereum ETC" >
@@ -115,13 +123,13 @@
                         <option value="Hamster coin HMT" >
                         <option value="Dogecoin DOGE" >
                      </datalist>
-                    <input type="text" value="0">
+                    <input class="input-fullwidth" type="text" value="0">
                 </div>
                 <div class="exchanger_form_swap"><i class="fa fa-arrow-right-arrow-left"></i></div>
                 <div>
                     <h2>You receive</h2>
-                    <input type="text" value="Bitcoin BTC">
-                    <input type="text" value="0">
+                    <input class="input-fullwidth" type="text" value="Bitcoin BTC">
+                    <input class="input-fullwidth" type="text" value="0">
                 </div>
             </div>
             <div class="exchanger_form_button"><button class="exchanger_button">Exchange</button></div>
