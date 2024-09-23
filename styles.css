@@ -207,6 +207,13 @@ input:focus {
     .container{
         margin: 0 20px 0px 20px;
     }
+    .partners_content_box{
+        flex-direction: column;
+    }
+    .footer_content_box{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 .adv_card {
     border: 1px solid #ccc;
