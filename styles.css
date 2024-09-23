@@ -304,7 +304,7 @@ align-items: center;
 
 
 .SignIn_wrapper, .SignUp_wrapper{
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.685);
     position: fixed;
     top: 0;
     left: 0;
@@ -343,7 +343,7 @@ align-items: center;
     color: #54238e;
 }
 
-.SignIn_wrapper_form_content{
+.SignIn_wrapper_form_content, .SignUp_wrapper_form_content{
     padding: 40px 25px;
 }
 
@@ -352,7 +352,7 @@ text-align: center;
 margin: 0 0 20px 0;
 }
 
-.SignIn_wrapper_form_content_login, .SignIn_wrapper_form_content_button, .SignIn_wrapper_form_content_button, .SignIn_wrapper_form_content_help{
+.SignIn_wrapper_form_content_login, .SignIn_wrapper_form_content_button, .SignIn_wrapper_form_content_help, .SignUp_wrapper_form_content_data, .SignUp_wrapper_form_content_button{
     padding: 0 0 20px 0;
 }
 .SignIn_wrapper_form_content_help_content{
