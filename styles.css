@@ -314,11 +314,34 @@ align-items: center;
     z-index: 9999;
 }
 
+.test{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 398px;
+    height: 645px;
+      
+}
+
+.test2{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 348px;
+    height: 364px;
+}
+
 .SignIn_wrapper_form, .SignUp_wrapper_form{
     border: 1px solid #54238e;
     border-radius: 1.6rem;
     max-width: 400px;
-    margin: 15% auto;
+    /* margin: 8% auto; */
     background-color: #f8f5fb;
     position: relative;
 }
