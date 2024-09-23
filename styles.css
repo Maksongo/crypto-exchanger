@@ -133,7 +133,7 @@ font-size: 30px;
     border-radius: 1.4rem;
     width: 100%;
     background-color: white;
-
+    display: none;
 }
 
 .exchanger_form_main_firstcoin_wrapper{
