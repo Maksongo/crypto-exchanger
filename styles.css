@@ -123,6 +123,40 @@ font-size: 30px;
     font-family: "Space Grotesk", sans-serif;
 }
 
+.jopa{
+    position: relative;
+}
+
+.exchanger_form_main_firstcoin{
+    position: absolute;
+    border: 1px solid #54238e;
+    border-radius: 1.4rem;
+    width: 100%;
+    background-color: white;
+
+}
+
+.exchanger_form_main_firstcoin_wrapper{
+    max-height: 200px;
+    overflow-y:auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(84, 35, 142, 0.1) transparent;
+    margin: 10px
+}
+
+.exchanger_firstcoin_coin{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 0 4px 0;
+}
+
+.exchanger_firstcoin_coin:hover{
+    background-color: #eee9f3;
+    border-radius: 2rem;
+
+}
+
 input:hover{
     border: 1px solid #54238e;
 }
