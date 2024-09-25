@@ -134,6 +134,7 @@ font-size: 30px;
     width: 100%;
     background-color: white;
     display: none;
+    z-index: 999;
 }
 
 .exchanger_form_main_firstcoin_wrapper{
@@ -214,7 +215,22 @@ input:focus {
         flex-direction: column;
         align-items: center;
     }
+    .exchanger_form_main{
+        flex-direction: column;
+    }
+    .exchanger_form_swap{
+        justify-content: center;
+        margin: 10px 0;
+        transform: rotate(90deg);
+    }
 }
+
+@media (max-width: 1216px){
+    .exchanger_form{
+        padding: 100px 40px;
+    }
+}
+
 .adv_card {
     border: 1px solid #ccc;
     border-radius: 2.8rem;
