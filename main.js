@@ -41,9 +41,24 @@ const ExchangerFirstCoinButton = document.querySelector("#Exchanger_firstinputID
     }
   })
 
+// Exchanger второй input список монет
+
+const ExchangerSecondCoinList = document.querySelector(".exchanger_form_main_secondcoin")
+const ExchangerSecondCoinButton = document.querySelector("#Exchanger_secondinputID")
+
+ExchangerSecondCoinButton.addEventListener('click', () =>{
+    if(ExchangerSecondCoinList.style.display === 'none' || ExchangerSecondCoinList.style.display === ''){
+        ExchangerSecondCoinList.style.display = 'block';
+    }
+    else{
+        ExchangerSecondCoinList.style.display = 'none';
+    }
+  })
+
 // Получаем информацию о монетах по API 
 
 const exchangerFirstCoinDiv = document.querySelector(".exchanger_form_main_firstcoin_wrapper")
+const exchangerSecondCoinDiv = document.querySelector(".exchanger_form_main_secondcoin_wrapper")
 
 let getBitcoinPrice = async () => {
     const response = await fetch(
@@ -70,5 +85,11 @@ const rows = data.slice(0, 10).map((coin) => `
 `).join('');
 
 exchangerFirstCoinDiv.innerHTML = `${rows}`
+exchangerSecondCoinDiv.innerHTML = `${data.slice(0, 10).reverse().map((coin) => `
+        <div class="exchanger_firstcoin_coin">
+        <img src="${coin.image}" alt="${coin.name}" width="36" height="36">
+        <p>${coin.name} ${coin.symbol.toUpperCase()}</p>
+        </div>  
+    `).join('')}`;
 
 };

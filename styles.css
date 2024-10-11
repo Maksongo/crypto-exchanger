@@ -127,7 +127,7 @@ font-size: 30px;
     position: relative;
 }
 
-.exchanger_form_main_firstcoin{
+.exchanger_form_main_firstcoin, .exchanger_form_main_secondcoin{
     position: absolute;
     border: 1px solid #54238e;
     border-radius: 1.4rem;
@@ -137,7 +137,7 @@ font-size: 30px;
     z-index: 999;
 }
 
-.exchanger_form_main_firstcoin_wrapper{
+.exchanger_form_main_firstcoin_wrapper, .exchanger_form_main_secondcoin_wrapper{
     max-height: 200px;
     overflow-y:auto;
     scrollbar-width: thin;
@@ -145,7 +145,7 @@ font-size: 30px;
     margin: 10px
 }
 
-.exchanger_firstcoin_coin{
+.exchanger_firstcoin_coin, .exchanger_secondcoin_coin{
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -153,11 +153,11 @@ font-size: 30px;
     padding: 12px 12px 12px 12px;
 }
 
-.exchanger_firstcoin_coin img {
+.exchanger_firstcoin_coin img, .exchanger_secondcoin_coin img{
     margin-right: 5px;
     display: inline-block; /* Или block, в зависимости от вашего дизайна */
   }
-.exchanger_firstcoin_coin:hover{
+.exchanger_firstcoin_coin:hover, .exchanger_secondcoin_coin:hover{
     background-color: #eee9f3;
     border-radius: 2rem;
 }
