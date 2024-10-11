@@ -150,12 +150,16 @@ font-size: 30px;
     align-items: center;
     cursor: pointer;
     margin: 0 0 4px 0;
+    padding: 12px 12px 12px 12px;
 }
 
+.exchanger_firstcoin_coin img {
+    margin-right: 5px;
+    display: inline-block; /* Или block, в зависимости от вашего дизайна */
+  }
 .exchanger_firstcoin_coin:hover{
     background-color: #eee9f3;
     border-radius: 2rem;
-
 }
 
 input:hover{

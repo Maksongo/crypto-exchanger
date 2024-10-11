@@ -40,3 +40,35 @@ const ExchangerFirstCoinButton = document.querySelector("#Exchanger_firstinputID
         ExchangerFirstCoinList.style.display = 'none';
     }
   })
+
+// Получаем информацию о монетах по API 
+
+const exchangerFirstCoinDiv = document.querySelector(".exchanger_form_main_firstcoin_wrapper")
+
+let getBitcoinPrice = async () => {
+    const response = await fetch(
+      `https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=10&page=1&sparkline=false&price_change_percentage=24h&locale=en`
+    );
+  
+    const data = await response.json();
+    return data;
+};
+
+getBitcoinPrice()
+  .then((data) => {
+    updateUI(data);
+  })
+  .catch((err) => console.log(err));
+
+let updateUI = (data) => {
+
+const rows = data.slice(0, 10).map((coin) => `
+    <div class="exchanger_firstcoin_coin">
+    <img src="${coin.image}" alt="${coin.name}" width="36" height="36">
+    <p>${coin.name} ${coin.symbol.toUpperCase()}</p>
+    </div>  
+`).join('');
+
+exchangerFirstCoinDiv.innerHTML = `${rows}`
+
+};
